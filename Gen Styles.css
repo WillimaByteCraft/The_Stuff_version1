@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.abouty{
+    width: 100%;
+    height: 100%;
+    padding: 40px 0px;
+    background-color:rgb(1, 1, 26);
+    
+
+   
+}
+
+.banner{
+    width: 100%;
+    background-color: rgb(1, 1, 26);
+    
+     
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(150, 135, 50);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.8s;       
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.abouty img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color:antiquewhite;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text p{
+    color:rgb(216, 195, 74);
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+.third{
+    background-color: rgb(153, 134, 26);
+    color:white ;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 13px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.third:hover{
+    background: transparent;
+    border: 2px solid white;
+}
